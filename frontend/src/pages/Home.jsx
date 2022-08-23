@@ -6,7 +6,8 @@ function Home() {
     <>
       <div className="grid_name">
         <h1 className="MyName">
-          <span className="span1">My name is,</span>Jose Portillo.
+          <span className="span1">My name is,</span>
+          <br></br>Jose Portillo.
         </h1>
       </div>
     </>
