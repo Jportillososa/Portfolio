@@ -36,6 +36,16 @@
     transform: rotate(360deg);
   }
 }
-h1 {
+h1:hover {
   color: white;
+}
+/* body:hover {
+  cursor: url("AlienHead2.png");
+} */
+.canvas {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
 }

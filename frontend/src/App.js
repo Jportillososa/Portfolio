@@ -27,11 +27,12 @@ export default function App() {
 function Stars(props) {
   const ref = useRef();
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.5 })
+    random.inSphere(new Float32Array(2000), { radius: 1.5 })
   );
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
+    //10, 15
   });
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
