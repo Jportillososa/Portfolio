@@ -1,27 +1,67 @@
+@import url("https://rsms.me/inter/inter.css");
 * {
   box-sizing: border-box;
 }
-
+html {
+  cursor: url("glowingCursor2.png") 20 20, auto;
+  /* z-index: 1; */
+  animation: animate 2.5s infinite;
+}
+/* @keyframes animate {
+  0% {
+    cursor: url("AlienHead3.gif"), auto;
+  }
+  10% {
+    cursor: url("AlienHead4.png"), auto;
+  }
+  30% {
+    cursor: url("AlienHead5.png"), auto;
+  }
+  40% {
+    cursor: url("AlienHead6.png"), auto;
+  }
+  60% {
+    cursor: url("AlienHead7.png"), auto;
+  }
+  70% {
+    cursor: url("AlienHead8.png"), auto;
+  }
+  80% {
+    cursor: url("AlienHead9.png"), auto;
+  }
+  90% {
+    cursor: url("AlienHead10.png"), auto;
+  }
+  100% {
+    cursor: url("AlienHead11.png"), auto;
+  }
+} */
 html,
 body,
 #root {
-  width: 100%;
-  height: 100%;
-  /* margin: 0; */
+  width: 100vw;
+  /* vh,vw */
+  height: 100vh;
+  margin: 0;
   padding: 0;
   overflow: hidden;
 }
 body {
-  margin: 5em;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  overscroll-behavior-y: none;
+  font-family: "Inter var", sans-serif;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  color: #ddd;
+  background: rgb(17, 17, 17);
 }
-
-code {
+svg {
+  fill: #ddd;
+}
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+} */
+h1 {
+  color: white;
+  /* position: fixed; */
 }
