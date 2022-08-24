@@ -1,0 +1,27 @@
+.navbar_container {
+  padding: 0;
+}
+
+.navbar {
+  padding: 0;
+}
+.navbar_ul {
+  padding: 3em;
+}
+.navbar_li {
+  list-style: none;
+}
+.navbar_li a {
+  text-decoration: none;
+}
+.navbar_li a:link {
+  text-decoration: none;
+  color: white;
+}
+.navbar_li a:hover {
+  text-decoration: none;
+  color: rgb(60, 255, 0);
+}
+a:visited {
+  color: white;
+}
