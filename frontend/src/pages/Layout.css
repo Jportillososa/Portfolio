@@ -1,5 +1,6 @@
 nav {
-  position: fixed;
+  position: relative;
   color: white;
   top: 0;
+  margin-right: 10em;
 }

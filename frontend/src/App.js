@@ -17,9 +17,19 @@ import { Points, PointMaterial } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 import Home from "./pages/Home.jsx";
 import Layout from "./pages/Layout.jsx";
+import "./App.css";
 export default function App() {
+  var c = <Canvas>...</Canvas>;
+  console.log(c);
+  const CanvasStyle = {
+    position: "absolute",
+  };
   return (
-    <Canvas camera={{ position: [0, 0, 1] }}>
+    <Canvas
+      id="canvas_div"
+      style={CanvasStyle}
+      camera={{ position: [0, 0, 1] }}
+    >
       <Stars />
     </Canvas>
   );
