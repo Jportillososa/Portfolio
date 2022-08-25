@@ -25,7 +25,13 @@ h1:hover {
 /* body:hover {
   cursor: url("AlienHead2.png");
 } */
-/* canvas {
-  height: 100%;
-  width: 100%;
+#canvas {
+  position: absolute !important;
+  z-index: -1;
+  /* height: 100%;
+  width: 100%; */
+}
+/* #canvas_div {
+  z-index: -1;
+  position: absolute !important;
 } */
