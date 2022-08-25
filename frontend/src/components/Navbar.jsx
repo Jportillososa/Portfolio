@@ -5,7 +5,9 @@ import { FaHome } from "react-icons/fa";
 import { FcAbout } from "react-icons/fc";
 import { FaInfoCircle } from "react-icons/fa";
 import { BsFillFileCodeFill } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 import { IoMdContact } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
 const Navbar = () => {
   return (
     <div className="navbar_container">
@@ -37,6 +39,18 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+        <div class="social_container">
+          <div className="social_link_gh">
+            <a href="https://github.com/Jportillososa">
+              <BsGithub />
+            </a>
+          </div>
+          <div className="social_link_li">
+            <a href="https://www.linkedin.com/in/portillo-jose/">
+              <BsLinkedin />
+            </a>
+          </div>
+        </div>
       </nav>
       <Outlet />
     </div>

@@ -18,6 +18,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/three": "^0.137.0",
+    "emailjs-com": "^3.2.0",
     "lamina": "^1.1.23",
     "maath": "^0.0.2",
     "react": "^18.2.0",
