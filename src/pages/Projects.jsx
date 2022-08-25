@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="project_card">
           <img
             className="project_img"
-            src="/images/FatCatGuitars.jpeg"
+            src="/images/FatCatGuitars.jpg"
             alt="website"
           />
           <h4 className="project-name">FatCat Guitars</h4>
@@ -25,7 +25,7 @@ const Projects = () => {
           <div className="product-info">
             <img
               className="project_img"
-              src="/images/ComplexRedesign.jpeg"
+              src="/images/ComplexRedesign.jpg"
               alt="website"
             />
             <h4 className="project-name">Complex Redesign</h4>
@@ -38,7 +38,7 @@ const Projects = () => {
           <div className="product-info">
             <img
               className="project_img"
-              src="/images/Learnify.jpeg"
+              src="/images/Learnify.jpg"
               alt="website"
             />
             <h4 className="project-name">Learnify</h4>
@@ -50,7 +50,7 @@ const Projects = () => {
           <div className="product-info">
             <img
               className="project_img"
-              src="/images/HopeHacks.jpeg"
+              src="/images/HopeHacks.jpg"
               alt="website"
             />
             <h4 className="project-name">STAY (Code for Justice)</h4>
@@ -62,7 +62,7 @@ const Projects = () => {
           <div className="product-info">
             <img
               className="project_img"
-              src="/images/TaskTracker.jpeg"
+              src="/images/TaskTracker.jpg"
               alt="website"
             />
             <h4 className="project-name">Task Tracker!</h4>
@@ -74,7 +74,7 @@ const Projects = () => {
           <div className="product-info">
             <img
               className="project_img"
-              src="/images/GatewayBali.jpeg"
+              src="/images/GatewayBali.jpg"
               alt="website"
             />
             <h4 className="project-name">Visit Bali!</h4>
