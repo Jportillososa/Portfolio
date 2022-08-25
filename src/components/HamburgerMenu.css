@@ -9,7 +9,7 @@
   /* background: linear-gradient(90deg, #000000, #4114a1);
   background: linear-gradient(375deg, #1cc7d0, #2ede98);
   background: linear-gradient(-45deg, #e3eefe 0%, #000000 100%); */
-  transition: all 0.6s ease-in-out;
+  transition: all 0.4s ease-in-out;
   z-index: 2;
 }
 #active:checked ~ .wrapper {
