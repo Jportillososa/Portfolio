@@ -8,10 +8,10 @@ const ContactForm = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_e1b6qfv",
-        "template_5nme1bq",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        "yfoi59ovR2tZr6SG_"
+        process.env.REACT_APP_USER_ID
       )
       .then(
         (result) => console.log(result.text),
