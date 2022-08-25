@@ -8,9 +8,11 @@ import { BsFillFileCodeFill } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { IoMdContact } from "react-icons/io";
 import { BsLinkedin } from "react-icons/bs";
+import HamburgerMenu from "./HamburgerMenu";
 const Navbar = () => {
   return (
     <div className="navbar_container">
+      <HamburgerMenu />
       <nav className="navbar">
         <ul className="navbar_ul">
           <li className="navbar_li">
