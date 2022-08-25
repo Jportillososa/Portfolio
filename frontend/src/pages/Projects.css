@@ -4,10 +4,141 @@
   z-index: 3;
   position: relative;
   left: 100px;
+  z-index: 1;
+  overflow: visible;
 }
 .h2_1 {
   color: white;
-  background-color: red;
   z-index: 4;
   top: 0 !important;
 }
+/* html,
+body {
+  overflow: visible;
+} */
+/*.............section for project....................... */
+/* .project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  margin: 100px;
+  text-align: center;
+} */
+
+.inventory img {
+  max-width: 100%;
+  min-width: 100px;
+  height: 350px;
+}
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  margin: 100px;
+  text-align: center;
+  overflow: visible;
+}
+.inventory {
+  font-size: 20px;
+  padding: 10px;
+  background-color: white;
+  background-color: #3498db;
+  color: rgb(0, 0, 0);
+  border: rgb(0, 0, 0) 5px solid;
+  border-radius: 30px;
+  height: 500px;
+  text-align: center;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.6);
+  /* remove border and add picture */
+}
+/* 
+@media screen and (min-width: 918px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .inventory h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 841px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .inventory h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .button {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 6vw;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 761px) {
+  .button {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 6vw;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 690px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 150px;
+  }
+  .inventory {
+    max-width: 300px;
+  }
+  .inventory h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .button {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    font-size: 6vw;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px;
+  }
+  .inventory {
+    min-width: 200px;
+  }
+  .inventory h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .button {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 6vw;
+    width: 40%;
+  }
+} */

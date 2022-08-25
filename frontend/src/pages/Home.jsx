@@ -9,8 +9,8 @@ function Home() {
     <div className="fullpage1">
       <div className="home_div">
         <div className="grid_name">
-          <h1 className="MyName">
-            <span className="span1">Hello, my name is</span>
+          <h1 className="name_h1">
+            <span className="span1">Hello, Im</span>
             <br></br>Jose Portillo.
           </h1>
         </div>
