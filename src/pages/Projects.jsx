@@ -28,7 +28,7 @@ const Projects = () => {
               src="/images/ComplexRedesign.jpg"
               alt="website"
             />
-            <h4 className="project-name">Complex Redesign</h4>
+            <h4 className="project-name">Complex Redesign!!</h4>
             <button>Github</button>
             <button>Visit Site</button>
           </div>
