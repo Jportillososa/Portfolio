@@ -47,10 +47,11 @@
     padding-top: 15vh;
     margin-left: -10vw;
   } */
-/* }
+
 @media screen and (max-width: 465px) {
   .grid_name {
     font-size: 0.8em;
-    padding-top: 15vh;
-    margin-left: -20vw;
-  } */
+    padding-top: 0vh;
+    /* margin-left: -20vw; */
+  }
+}
