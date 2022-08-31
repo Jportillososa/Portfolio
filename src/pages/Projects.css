@@ -38,7 +38,7 @@ body {
 }
 .project {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 100px;
   margin: 100px;
   text-align: center;
@@ -59,16 +59,22 @@ body {
   box-shadow: 0 10px 10px 0 rgba(255, 255, 255, 0.6);
   /* remove border and add picture */
   margin: 0 auto;
+  min-width: 250px;
 }
 .project-name {
   color: white;
 }
 .github_site_link {
   padding: 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
 }
 @media screen and (width: 768px) {
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+  }
   .name_h1 {
     left: 4vw;
   }
@@ -77,6 +83,7 @@ body {
   .project {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
   }
   .fullpage1 {
     width: 100vw;
@@ -94,13 +101,16 @@ body {
   .project {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 40px;
   }
 }
 @media screen and (max-width: 600px) {
   .project {
     display: grid;
     grid-template-columns: 1fr;
-    margin-bottom: 2em;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    margin: 0 auto;
   }
 
   .name_h1 {
