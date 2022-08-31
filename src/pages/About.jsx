@@ -7,7 +7,9 @@ const About = () => {
   };
   return (
     <div className="fullpage1">
-      <h1 style={FixedMargin}>About Me!</h1>
+      <h1 className="about_h1" style={FixedMargin}>
+        About Me!
+      </h1>
       <div className="about_section">
         <img className="picture_of_me" src="/images/portfolio_picture.png" />
         <div className="about-me">

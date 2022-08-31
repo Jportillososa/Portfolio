@@ -6,7 +6,13 @@
   gap: 0px;
   margin: 0px;
 }
-
+.about_h1 {
+  font-size: 3em;
+  text-align: center;
+  padding-top: 2em;
+  background: linear-gradient(30deg, #b8f0e5, #1692ff);
+  color: rgb(255, 255, 255);
+}
 .about-me {
   color: rgb(255, 255, 255);
   font-size: 2em;
@@ -19,6 +25,13 @@
   width: 500px;
   height: 500px;
   overflow: visible;
+}
+@media screen and (min-width: 820px) {
+  .about_h1 {
+    background: linear-gradient(30deg, #b8f0e5, #1692ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 @media screen and (max-width: 820px) {
   .about_section {
