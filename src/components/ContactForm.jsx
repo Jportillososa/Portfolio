@@ -47,7 +47,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 className="field area"
-                placeholder="How Can We Help?"
+                placeholder="How Can I Help?"
                 name="message"
                 required
               />

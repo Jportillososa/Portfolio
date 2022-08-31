@@ -63,6 +63,11 @@ body {
 .project-name {
   color: white;
 }
+.github_site_link {
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 @media screen and (width: 768px) {
   .name_h1 {
     left: 4vw;
