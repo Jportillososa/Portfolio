@@ -6,9 +6,7 @@ const Projects = () => {
   };
   return (
     <div className="fullpage1">
-      <h2 className="h2_1" style={FixedMargin}>
-        Projects
-      </h2>
+      <h2 className="h2_1" style={FixedMargin}></h2>
 
       <div className="project">
         <div className="project_card">
@@ -68,7 +66,9 @@ const Projects = () => {
             >
               Github
             </a>
-            <a className="github_site_link">Visit Site</a>
+            <a href="http://44.204.3.99:4000/" className="github_site_link">
+              Visit Site
+            </a>
           </div>
         </div>
         <div className="project_card">
