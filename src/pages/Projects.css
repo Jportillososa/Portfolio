@@ -66,9 +66,23 @@ body {
   color: white;
 }
 .github_site_link {
-  padding: 0px;
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
+  border: 1px solid #06213800;
+  border-radius: 0.4rem;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  transition: all 400ms ease;
+  width: max-content;
+  background: linear-gradient(30deg, #b8f0e5, #1692ff);
+  margin: 5px;
+  text-decoration: none;
+}
+.github_site_link:hover {
+  color: black;
+}
+.github_site_link:visited {
+  color: black;
 }
 @media screen and (width: 768px) {
   .project {

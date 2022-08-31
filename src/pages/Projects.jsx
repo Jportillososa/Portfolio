@@ -26,7 +26,7 @@ const Projects = () => {
             href="http://fat-cat-guitars2.s3-website-us-east-1.amazonaws.com/"
             className="github_site_link"
           >
-            Visit Site
+            Demo
           </a>
         </div>
         <div className="project_card">
@@ -47,7 +47,7 @@ const Projects = () => {
               href="http://complex-redesign.s3-website-us-east-1.amazonaws.com/"
               className="github_site_link"
             >
-              Visit Site
+              Demo
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Projects = () => {
               Github
             </a>
             <a href="http://44.204.3.99:4000/" className="github_site_link">
-              Visit Site
+              Demo
             </a>
           </div>
         </div>
@@ -89,7 +89,7 @@ const Projects = () => {
               href="https://main.dvcrm9ymf759o.amplifyapp.com/index.html"
               className="github_site_link"
             >
-              Visit Site
+              Demo
             </a>
           </div>
         </div>
@@ -111,7 +111,7 @@ const Projects = () => {
               href="https://thawing-meadow-99374.herokuapp.com/"
               className="github_site_link"
             >
-              Visit Site
+              Demo
             </a>
           </div>
         </div>
@@ -133,7 +133,7 @@ const Projects = () => {
               href="https://main.dod84ujz2qlkk.amplifyapp.com/"
               className="github_site_link"
             >
-              Visit Site
+              Demo
             </a>
           </div>
         </div>
