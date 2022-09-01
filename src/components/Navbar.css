@@ -26,7 +26,7 @@
   text-align: center;
 }
 .navbar_ul {
-  padding: 3em 0;
+  padding: 1.5em 0;
   /* position: relative; */
 }
 .navbar_li {
@@ -63,7 +63,7 @@ a:visited {
   position: relative;
   bottom: 1em;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
   .navbar {
     display: none;
   }

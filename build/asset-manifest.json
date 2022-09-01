@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbc4ccc0.css",
-    "main.js": "/static/js/main.9f67f251.js",
+    "main.css": "/static/css/main.10399e3c.css",
+    "main.js": "/static/js/main.c078c1c2.js",
     "static/media/AlienHead.gif": "/static/media/AlienHead.d8881b05bdb0c3a199f5.gif",
     "index.html": "/index.html",
-    "main.dbc4ccc0.css.map": "/static/css/main.dbc4ccc0.css.map",
-    "main.9f67f251.js.map": "/static/js/main.9f67f251.js.map"
+    "main.10399e3c.css.map": "/static/css/main.10399e3c.css.map",
+    "main.c078c1c2.js.map": "/static/js/main.c078c1c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbc4ccc0.css",
-    "static/js/main.9f67f251.js"
+    "static/css/main.10399e3c.css",
+    "static/js/main.c078c1c2.js"
   ]
 }
